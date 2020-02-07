@@ -3,9 +3,9 @@
 #include "../src/DifferentialEvolution.hpp"
 #include "../src/ExampleQualifiers.hpp"
 
-#include "../include/Point.hpp"
-#include "../include/PointSet.hpp"
-#include "../include/RandomGenerators.hpp"
+#include "../include/Geometry/Point.hpp"
+#include "../include/Geometry/PointSet.hpp"
+#include "../include/Geometry/RandomGenerators.hpp"
 
 using namespace std;
 using namespace Evolutive;
