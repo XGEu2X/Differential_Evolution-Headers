@@ -23,9 +23,9 @@ int main() {
 	}
 
 	
-	DiffEvo<Population, Circle, Qual> DE;
+	DiffEvo<Population, Circle, Qual> DE(1,0.2, DiffEvo<Population, Circle, Qual>::SORT_DESCENDING);
 
-	for(size_t c1 =0;c1<10;++c1){
+	for(size_t c1 =0;c1<100;++c1){
 		DE.evolve(P, C, f, 10, 5);
 
 		cout << P.to_string() << endl << endl;
